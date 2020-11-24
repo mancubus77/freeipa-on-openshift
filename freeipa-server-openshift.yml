@@ -168,7 +168,7 @@ objects:
           resources: {}
           volumeMounts:
           - name: "${IPA_SERVER_SERVICE}-data"
-            mountPath: "/data12"
+            mountPath: "/data"
           - name: "${IPA_SERVER_SERVICE}-run"
             mountPath: "/run"
           - name: "${IPA_SERVER_SERVICE}-tmp"
