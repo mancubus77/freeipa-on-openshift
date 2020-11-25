@@ -1,5 +1,6 @@
 # freeipa-on-openshift
-Manifest files to install FREEIPA on OpenShift
+Manifest files to install FREEIPA (Red Hat IDM) on OpenShift.
+
 ## Define
 ```oc apply -f freeipa-server-openshift.yml```
 
